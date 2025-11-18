@@ -169,6 +169,7 @@ h1 {
 #nav-bar {
     display: flex;
     justify-content: center;
+    align-items: center;
     gap: 8dvw;
     box-shadow: 1px 2px 10px grey;
     background-color: var(--blue);
@@ -176,6 +177,7 @@ h1 {
     color: whitesmoke;
     padding: min(5dvh, 12px);
     border-top: 3px solid var(--blue);
+    min-height: 32px;
     
 }
 
@@ -184,12 +186,14 @@ nav:hover {
     transform: scale(5px);
     text-decoration: underline;
     cursor: pointer;
+    
 }
 
 nav:focus, nav:active {
     color: rgb(141, 0, 0);
     text-decoration: underline;
     cursor: pointer;
+
 }
 
 nav {
